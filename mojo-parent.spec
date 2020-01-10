@@ -1,6 +1,6 @@
 Name:           mojo-parent
 Version:        32
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Codehaus MOJO parent project pom file
 
 License:        ASL 2.0
@@ -36,6 +36,9 @@ cp %SOURCE1 .
 %doc LICENSE-2.0.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 32-4
+- Mass rebuild 2013-12-27
+
 * Mon Jul 22 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 32-3
 - Add ASL 2.0 license text to rpms
 
